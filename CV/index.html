@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="name">
+            <h1>Murat Keskin</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li>
+                    <a href="#">Links</a>
+                    <ul class="dropdown">
+                        <li><a href="https://www.linkedin.com/in/murat-keskin-10a47b260/">LinkedIn</a></li>
+                        <li><a href="https://github.com/MuratKeskin0">GitHub</a></li>
+                        <li><a href="https://medium.com/@eng.murat.keskin">Medium</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="about-me">
+            <h2>About Me</h2>
+            <img src="WhatsApp Image 2024-06-06 at 11.55.15.jpeg" alt="Murat Keskin" class="profile-image">
+            <p>patates</p>
+        </div>
+        <div class="blog-slider">
+            <h2>My Blogs</h2>
+            <div class="slider">
+                <div class="slide">Blog Post 1</div>
+                <div class="slide">Blog Post 2</div>
+                <div class="slide">Blog Post 3</div>
+                <!-- Add more blog posts as needed -->
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Murat Keskin. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
