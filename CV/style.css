@@ -65,12 +65,30 @@ main {
 }
 
 .about-me {
-    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.profile-image-container {
+    position: relative;
+    flex: 0 0 auto;
+    justify-content: center;
 }
 
 .profile-image {
     width: 200px;
     border-radius: 50%;
+}
+
+.about-content {
+    flex: 1;
+    text-align: left;
+    align-items: flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: dotted;
+    text-align:justify;
 }
 
 .blog-slider {

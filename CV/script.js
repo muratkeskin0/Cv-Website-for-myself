@@ -20,3 +20,11 @@ function moveSlide(direction) {
 document.addEventListener('DOMContentLoaded', () => {
     showSlide(slideIndex);
 });
+
+ // Fetch and display the about text
+ fetch('about-me.txt')
+ .then(response => response.text())
+ .then(data => {
+     document.getElementById('about-text').textContent = data;
+ })
+ .catch(error => console.error('Error fetching text file:', error));
