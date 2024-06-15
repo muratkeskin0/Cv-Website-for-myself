@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
  // Fetch and display the about text
- fetch('about-me.txt')
+ fetch('Data/about-me.txt')
  .then(response => response.text())
  .then(data => {
      document.getElementById('about-text').textContent = data;
