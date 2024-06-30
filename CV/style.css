@@ -31,7 +31,6 @@ nav ul {
 nav ul li {
     position: relative;
     margin: 0 1em;
-
 }
 
 nav ul li a {
@@ -120,11 +119,9 @@ main {
 
 .slide img {
     width: 100%;
-    position: relative;
-    box-sizing: border-box;
-    height: auto;
+    height: 100%;
     display: block;
-    object-fit:cover;
+    object-fit: cover;
 }
 
 .slide-content {
